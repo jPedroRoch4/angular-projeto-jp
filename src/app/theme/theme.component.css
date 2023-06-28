@@ -1,0 +1,17 @@
+h1 {
+  color: steelblue;
+}
+
+
+#wrap {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+}
+
+#content {
+  flex-grow: 1;
+background-color: whitesmoke;
+}
