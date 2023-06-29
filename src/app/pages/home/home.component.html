@@ -1,1 +1,19 @@
-<p>home works!</p>
+<article *ngIf="destinos">
+
+  <h2>Artigos Recentes</h2>
+
+  <ul>
+
+    <li *ngFor="let destino of destinos">
+      <a routerLink="/view/{{destino.id}}">
+        {{destino.content}}
+      </a>
+    </li>
+
+  </ul>
+
+</article>
+
+<aside>
+  <h3>Sidebar</h3>
+</aside>
